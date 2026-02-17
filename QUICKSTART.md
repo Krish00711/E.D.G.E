@@ -1,5 +1,7 @@
 # EDGE Frontend — Quick Start Guide
 
+For full-stack setup (backend, database, ML service, seed data), see README.md.
+
 ## What is Built
 
 A complete scroll-based narrative landing page with:

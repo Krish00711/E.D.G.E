@@ -1,3 +1,10 @@
+# Environment variables (CRITICAL - NEVER COMMIT)
+.env
+.env.local
+.env.*.local
+.env.production.local
+.env.test.local
+
 # Logs
 logs
 *.log
@@ -18,6 +25,20 @@ dist-ssr
 !.vscode/extensions.json
 .idea
 .DS_Store
+
+# Secrets & Credentials
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# Database & ML
+*.pkl
+*.joblib
+models/trained/
+data/private/
+mongo_data/
 *.suo
 *.ntvs*
 *.njsproj
